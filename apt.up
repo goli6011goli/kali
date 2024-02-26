@@ -1,15 +1,15 @@
-apt update
+sudo apt update
 
 figlet update Done -f small | lolcat
 
-apt list --upgradable
+sudo apt list --upgradable
 
 figlet list upgrade Done -f small | lolcat
 
-apt upgrade -y
+sudo apt upgrade -y
 
 figlet upgrade Done -f small | lolcat
 
-apt autoremove -y
+sudo apt autoremove -y
 
 figlet autoremove Done -f small | lolcat
