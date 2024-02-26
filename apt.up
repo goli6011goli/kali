@@ -1,0 +1,15 @@
+apt update
+
+figlet update Done -f small | lolcat
+
+apt list --upgradable
+
+figlet list upgrade Done -f small | lolcat
+
+apt upgrade -y
+
+figlet upgrade Done -f small | lolcat
+
+apt autoremove -y
+
+figlet autoremove Done -f small | lolcat
