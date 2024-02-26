@@ -1,10 +1,10 @@
-#sudo apt update
+sudo apt update
 
-#sudo apt list --upgradable
+sudo apt list --upgradable
 
-#sudo apt upgrade -y
+sudo apt upgrade -y
 
-#sudo apt autoremove -y
+sudo apt autoremove -y
 
 ############################
 
@@ -12,11 +12,13 @@ sudo apt install figlet -y
 
 sudo apt install lolcat -y
 
-sudo apt install zsh -y
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 sudo cp ./apt.up /usr/bin/apt.up
 
 ############################################################
+
+sudo apt install kali-grant-root -y
 
 sudo dpkg-reconfigure kali-grant-root
 
