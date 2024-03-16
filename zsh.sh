@@ -36,6 +36,8 @@ sudo chsh -s /usr/bin/zsh
 
 echo sudo su >> ~/.bashrc
 
+echo sudo su >> ~/.zshrc
+
 sudo cp ./.zshrc /root/.zshrc
 
 sudo git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
