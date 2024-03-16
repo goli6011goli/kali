@@ -46,6 +46,8 @@ sudo git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git
 
 sudo git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
 
+figlet install zsh Done -f small | lolcat
+
 #####################################
 
 sudo cp ./apt.up /usr/bin/apt.up
