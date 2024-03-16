@@ -1,3 +1,6 @@
+cat ./Goli1.txt
+
+###############################
 
 sudo apt install figlet -y
 
