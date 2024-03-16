@@ -20,8 +20,6 @@ sudo cp ./apt.up /usr/bin/apt.up
 
 sudo apt install kali-grant-root -y
 
-sudo dpkg-reconfigure kali-grant-root
-
 sudo chsh -s /usr/bin/zsh
 
 sudo echo sudo su >> ../../.bashrc
@@ -35,3 +33,5 @@ sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUS
 sudo git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
 
 sudo git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
+
+sudo dpkg-reconfigure kali-grant-root
