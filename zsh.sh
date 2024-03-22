@@ -1,7 +1,3 @@
-cat ./Goli1.txt
-
-###############################
-
 sudo apt install figlet -y
 
 figlet install figlet Done -f small | lolcat
